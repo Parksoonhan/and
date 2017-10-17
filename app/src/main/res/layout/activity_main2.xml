@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hywoman.myapplication.Main2Activity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginRight="75dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="84dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="179dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginRight="74dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="336dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:text="id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="336dp"
+        android:layout_marginRight="253dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="387dp"
+        android:layout_marginRight="263dp"
+        android:text="password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="341dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="290dp"
+        android:layout_marginRight="21dp"
+        android:text="login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="231dp"
+        android:layout_marginRight="203dp"
+        android:text="find id or pw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="231dp"
+        android:layout_marginRight="75dp"
+        android:text="sign in "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="135dp"
+        android:layout_height="36dp"
+        android:text="save id "
+        android:layout_marginLeft="46dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="169dp"
+        android:textSize="15sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="149dp"
+        android:layout_height="36dp"
+        android:text="save login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="169dp"
+        android:layout_marginRight="31dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="15sp"/>
+
+</android.support.constraint.ConstraintLayout>

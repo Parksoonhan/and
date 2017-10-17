@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hywoman.myapplication.Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="384dp"
+            android:layout_height="289dp"
+            android:src="@drawable/school"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="222dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="260dp"
+            android:layout_height="56dp"
+            android:text="student information"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="161dp"
+            android:layout_marginLeft="0dp"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="98dp"
+            android:layout_height="57dp"
+            android:onClick="onButtonClick"
+            android:text="click"
+            tools:layout_editor_absoluteY="294dp"
+            tools:layout_editor_absoluteX="270dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>
+
